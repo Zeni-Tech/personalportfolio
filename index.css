@@ -11,18 +11,17 @@
 
 
 /* body backgroundcolor */
+
 .color{
     background-color: #0C2335;
-    /* background-color: #BFC6CD; */
 
 }
 .bgimage {
     background-image: url(./body1.png);
-    height: 650px;
-    margin-left: 45%;
+    height: 600px;
     object-fit:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:right;
 }
 
 
@@ -113,10 +112,8 @@
 #services{
     color: white;
     background-color: #1F252B;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 60px;
+ 
 }
 #card-body{
     background-color:#323846;
