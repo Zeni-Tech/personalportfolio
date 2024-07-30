@@ -233,38 +233,38 @@
 
 
 <!-- contact section-->
-<form id="Contect">
-    <h1 class="text-center text-white">Contect Me </h1>
- <div class="contect mt-0">
-<div class="field container">
-    <label for="to_name">Ful Name</label>
-    <input type="text" name="to_name" id="to_name">
-  </div>
-  <div class="field  container">
-    <label for="from_name">From Name</label>
-    <input type="text" name="from_name" id="from_name">
-  </div>
-  <div class="field  container">
-    <label for="email_id">Email</label>
-    <input type="text" name="email_id" id="email_id">
-  </div>
-  <div class="field  container">
-    <label for="message">Message</label>
-    <input type="text" name="message" id="message">
-  </div>
-
-  <input type="submit" class=" container" id="button" value="Send Email" >
+ <div class="upper">
+ <div class="container">
+    <h1 class="text-center text-white">Contect</h1>
  </div>
-</form>
-
-<script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script type="text/javascript">
-  emailjs.init('rscRZ-bcYAXxh-gUH')
-</script>
-
-
+<form id="form">
+    <div class="field">
+      <label for="to_name">To Name</label>
+      <input type="text" name="to_name" id="to_name">
+    </div>
+    <div class="field">
+      <label for="from_name">From Name</label>
+      <input type="text" name="from_name" id="from_name">
+    </div>
+    <div class="field">
+      <label for="email_id">Email</label>
+      <input type="text" name="email_id" id="email_id">
+    </div>
+    <div class="field">
+      <label for="message">Message</label>
+      <input type="text" name="message" id="message">
+    </div>
+  
+    <input type="submit" id="button" value="Send Email" >
+  </form>
+</div>
+  
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('rscRZ-bcYAXxh-gUH')
+  </script>
 
 
 
