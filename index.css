@@ -193,6 +193,7 @@
 .upper{
     background-color: #1F252B;
     height: 500px;
+
 }
 .field {
     margin-bottom: 10px;
@@ -202,6 +203,8 @@
     display: block;
     font-size: 20px;
     color: white;
+    margin-left: 10%;
+    font-style: italic;
   }
   
   .field input {
@@ -225,9 +228,9 @@
     box-shadow: 0px 0px 30px #04D9FF;
     cursor: pointer;
   }
-  input[type="text"] {
+  input[type="text"]{
     height: 50px;
-    width: 100%;
+    width: 80%;
     color: black;
-
+    margin-left: 10%;
   }
