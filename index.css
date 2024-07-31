@@ -1,7 +1,7 @@
 /* Logo */
 #logo{
     color: #04D9FF;
-    filter: drop-shadow(5px 5px 5px #04D9FF);
+    
     text-decoration: none;
     font-size: large;
     font-weight: bold;
@@ -31,9 +31,6 @@
     color:white
 }
 
-.hero_title:hover{
-    filter: drop-shadow(10px 10px 10px #04D9FF);
-}
 .hero_desc {
     font-size: 2rem;
     font-style: italic;
@@ -55,15 +52,13 @@
     text-decoration: none;
 }
 #download-button:hover{
-    box-shadow: 0px 0px 30px #04D9FF;
+    box-shadow: 0px 0px 10px #04D9FF;
 }
-
 
 
 /* Main banner */
 #FED{
     color: #04D9FF;
-    filter: drop-shadow(3px 3px 3px #04D9FF);
 }
 .hero-text {
     text-align: center;
@@ -101,7 +96,7 @@
 #NA li a:hover{
     text-decoration: overline;
     color: #04D9FF;
-    filter: drop-shadow(10px 10px 10px #04D9FF);
+
 
 }
 
@@ -149,9 +144,6 @@
 
 #icons-logo{
     color: #04D9FF;
-}
-#icons-logo:hover{
-    filter: drop-shadow(10px 10px 10px #04D9FF);
 }
 
 
